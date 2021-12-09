@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reiserx.htmlcompiler" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HtmlCompiler" >
+        <activity
+            android:name=".Activities.updateApp"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PermissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ImagePreview"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddFiles"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EditFiles"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProjectFiles"
+            android:exported="false"
+            android:label="@string/title_activity_project_files"
+            android:theme="@style/Theme.HtmlCompiler.NoActionBar" />
+        <activity
+            android:name=".Activities.AddData"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProjectList"
+            android:exported="true"
+            android:label="@string/title_activity_project_list"
+            android:theme="@style/Theme.HtmlCompiler.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".Service.MyFirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_baseline_html_24" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

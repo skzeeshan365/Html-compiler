@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/drawable/ic_baseline_html_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/about_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_add_data.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_add_file.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_add_files.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_edit_files.xml" value="0.2359375" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_image_preview.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_permission.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_project_files.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_project_list.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/activity_update_app.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/content_project_files.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/content_project_list.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/edittext_dialig.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/fragment_first2.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/fragment_second.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/image_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/login_layout.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/layout/project_list.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/menu/home_page_menu.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/menu/save_menu.xml" value="0.25" />
+        <entry key="..\:/Users/zeeshan/AndroidStudioProjects/htmlcompiler/app/src/main/res/menu/web_option.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

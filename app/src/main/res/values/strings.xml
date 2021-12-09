@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">html compiler</string>
+    <string name="title_activity_project_list">Html compiler</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Projects</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Project files</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_project_files">ProjectFiles</string>
+    <string name="saveString">SAVE</string>
+    <string name="project_files">Project files</string>
+    <string name="enter_project_name">Enter project name</string>
+    <string name="enter_project_description">Enter project description</string>
+    <string name="save">save</string>
+</resources>
